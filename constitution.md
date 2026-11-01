@@ -1,91 +1,91 @@
-# The Blank Constitution
+# La Costituzione Bianca
 
-> A skeleton, not a finished body. Values in `[brackets]` are defaults meant to be argued over and changed on your own branch. This text itself never changes. See the [manifesto](README.md) for why, and the [guides](docs/README.md) for how to write your own.
+> Uno scheletro, non un corpo finito. I valori tra `[parentesi quadre]` sono proposte predefinite, da discutere e cambiare sul tuo branch. Questo testo non cambia mai. Leggi il [manifesto](README.md) per sapere perché, e le [guide](docs/README.md) per sapere come scrivere la tua.
 
-**Preamble.** We, the people of `[nation]`, write this Constitution to secure what was ours before any State existed, and to keep the power we lend from turning against us.
+**Preambolo.** Noi, il popolo di `[nazione]`, scriviamo questa Costituzione per garantire ciò che era nostro prima che esistesse qualsiasi Stato, e per impedire che il potere che prestiamo si rivolga contro di noi.
 
-## Article I. Fundamental Rights
+## Articolo I. Diritti fondamentali
 
-1. Every person is born with inherent faculties that come before society: life, liberty, conscience, thought and its expression, association, and the fruit of their own work. The fundamental rights in this Article are born of those faculties. This Constitution does not grant them. It recognizes them, and forbids the State to abridge them.
-2. No person shall be detained without charge brought promptly before a judge, nor punished but by a law in force at the time and after a fair, public trial.
-3. No law, amnesty or amendment has retroactive effect. Every act is judged by the law in force when it was committed.
-4. A person's home, correspondence and private life are inviolable without a judicial warrant.
-5. All persons are equal before the law. No law shall grant privileges by birth, sex, belief, origin or party.
-6. The rights listed here are not the only ones. Their listing shall not be read to deny others born of the same faculties.
+1. Ogni persona nasce con facoltà inerenti, anteriori alla società: la vita, la libertà, la coscienza, il pensiero e la sua espressione, l'associazione e il frutto del proprio lavoro. I diritti fondamentali di questo Articolo nascono da tali facoltà. Questa Costituzione non li concede. Li riconosce, e vieta allo Stato di limitarli.
+2. Nessuno può essere detenuto senza che un'accusa sia portata senza indugio davanti a un giudice, né punito se non in forza di una legge vigente al momento del fatto e dopo un processo giusto e pubblico.
+3. Nessuna legge, amnistia o emendamento ha effetto retroattivo. Ogni atto è giudicato secondo la legge in vigore quando fu commesso.
+4. Il domicilio, la corrispondenza e la vita privata delle persone sono inviolabili senza mandato del giudice.
+5. Tutte le persone sono uguali davanti alla legge. Nessuna legge concederà privilegi per nascita, sesso, credo, origine o partito.
+6. I diritti qui elencati non sono gli unici. La loro elencazione non potrà essere interpretata come negazione di altri nati dalle stesse facoltà.
 
-## Article II. Citizenship
+## Articolo II. Cittadinanza
 
-1. A citizen is anyone who swears loyalty to this Constitution, and is judged by its laws.
-2. Whoever is born of citizens, or born in `[nation]`, is presumed loyal to it, and may revoke that loyalty at any time.
-3. Any person has the right to swear that loyalty and be a citizen.
+1. È cittadino chiunque giuri lealtà a questa Costituzione, ed è giudicato dalle sue leggi.
+2. Chi nasce da cittadini, o nasce in `[nazione]`, si presume leale a essa, e può revocare tale lealtà in qualsiasi momento.
+3. Ogni persona ha il diritto di giurare tale lealtà ed essere cittadino.
 
-## Article III. Representation
+## Articolo III. Rappresentanza
 
-1. All public offices established here are filled by election, by the people, voting for individual candidates. Party lists are forbidden.
-2. Any citizen of age may stand as a candidate without the endorsement of any party or association.
-3. Elections to each power are held separately. No person may hold office in more than one power at once.
-4. No public money shall fund political parties, nor their campaigns.
-5. Electoral districts are drawn by a public algorithm, fixed by law before each census and open to anyone to reproduce.
+1. Tutte le cariche pubbliche qui istituite sono ricoperte per elezione, da parte del popolo, votando singoli candidati. Le liste di partito sono vietate.
+2. Ogni cittadino maggiorenne può candidarsi senza l'appoggio di alcun partito o associazione.
+3. Le elezioni per ciascun potere si tengono separatamente. Nessuno può ricoprire cariche in più di un potere contemporaneamente.
+4. Nessun denaro pubblico finanzierà partiti politici né le loro campagne.
+5. I collegi elettorali sono tracciati da un algoritmo pubblico, fissato per legge prima di ogni censimento e riproducibile da chiunque.
 
-## Article IV. The Legislative Power
+## Articolo IV. Il Potere Legislativo
 
-1. The legislative power is vested in an Assembly of `[one]` deputy per district, elected for `[three]` years by `[majority vote in single-member districts]`. Each district holds about `[50,000]` citizens.
-2. The Assembly makes the laws, approves the budget and audits all public spending. It alone may levy taxes.
-3. Deputies vote by their own judgment. No mandate from a party binds them. They may be recalled by the voters of their district under rules fixed by law.
-4. Any `[20,000]` registered citizens may propose a law by their signatures. The Assembly must debate it and vote on it within `[ninety]` days, and publish its reasons if it rejects it.
+1. Il potere legislativo spetta a un'Assemblea di `[un]` deputato per collegio, eletto per `[tre]` anni con `[maggioranza in collegi uninominali]`. Ogni collegio comprende circa `[50.000]` cittadini.
+2. L'Assemblea fa le leggi, approva il bilancio e controlla tutta la spesa pubblica. Solo essa può imporre tributi.
+3. I deputati votano secondo il proprio giudizio. Nessun mandato di partito li vincola. Possono essere revocati dagli elettori del loro collegio secondo le regole fissate dalla legge.
+4. Qualsiasi gruppo di `[20.000]` cittadini iscritti può proporre una legge con le proprie firme. L'Assemblea deve discuterla e votarla entro `[novanta]` giorni, e pubblicare le sue ragioni se la respinge.
 
-## Article V. The Executive Power
+## Articolo V. Il Potere Esecutivo
 
-1. The executive power is vested in an Executive elected directly by the people, in an election of its own, under Article III. The Assembly never chooses it.
-2. The Executive serves for `[five]` years. No one may hold executive office for more than `[two]` terms.
-3. Executive and Assembly terms differ in length, and their elections are held apart except after a dissolution under Article VII, so that every Executive faces at least one newly elected Assembly during its term.
-4. The Executive enforces the laws, directs administration and foreign relations, and appoints ministers, none of whom may sit in the Assembly. It may not make law, nor spend beyond the budget the Assembly approves.
-5. The Executive may veto a law once. The Assembly may override the veto by `[two-thirds]` of its members.
-6. Holders of executive office may be removed only for crimes, by indictment of the Assembly and judgment of the Supreme Court.
+1. Il potere esecutivo spetta a un Esecutivo eletto direttamente dal popolo, con un'elezione propria, secondo l'Articolo III. L'Assemblea non lo sceglie mai.
+2. L'Esecutivo resta in carica `[cinque]` anni. Nessuno può ricoprire cariche esecutive per più di `[due]` mandati.
+3. I mandati dell'Esecutivo e dell'Assemblea hanno durata diversa, e le loro elezioni si tengono separatamente salvo dopo uno scioglimento secondo l'Articolo VII, così che ogni Esecutivo affronti almeno un'Assemblea appena eletta durante il suo mandato.
+4. L'Esecutivo fa rispettare le leggi, dirige l'amministrazione e le relazioni estere, e nomina i ministri, nessuno dei quali può sedere nell'Assemblea. Non può fare leggi, né spendere oltre il bilancio approvato dall'Assemblea.
+5. L'Esecutivo può porre il veto su una legge una volta. L'Assemblea può superare il veto con i `[due terzi]` dei suoi membri.
+6. I titolari di cariche esecutive possono essere rimossi solo per reati, su accusa dell'Assemblea e con sentenza della Corte Suprema.
 
-## Article VI. The Judicial Power
+## Articolo VI. Il Potere Giudiziario
 
-1. The judicial power is vested in a Supreme Court and the courts established by law. Neither the Assembly nor the Executive chooses its members.
-2. Judges are governed by a Council of Justice `[elected by judges, prosecutors and lawyers]`. The Council sets the budget of the judiciary, and the Assembly must grant it up to `[two percent]` of public revenue. Beyond that limit, the Assembly decides.
-3. Judges serve until `[a fixed age]` and may be removed only for crimes or proven incapacity, by judgment of their peers.
-4. Any court may refuse to apply a law contrary to this Constitution. The Supreme Court has the final word among the courts.
-5. Any dispute, civil or criminal, may be submitted to an independent tribunal chosen by all its parties. Its judgment binds those parties and is enforced as that of a court, unless it violates this Constitution. Sedition is always judged by the courts.
-6. Any party to a dispute has the right to have it judged jointly by a college of judges, odd in number and no fewer than three, and a jury of citizens, even in number and between two and three times the size of the college. The parties agree on both sizes. Every judge and every juror has one equal vote, so the total is always odd. A judgment requires a majority of all votes, including at least one judge and one juror, unless the jury is unanimous, in which case its verdict prevails. Failing that, the decision favours the accused, or the party against whom the claim is brought.
+1. Il potere giudiziario spetta a una Corte Suprema e ai tribunali istituiti dalla legge. Né l'Assemblea né l'Esecutivo ne scelgono i membri.
+2. I giudici sono governati da un Consiglio di Giustizia `[eletto da giudici, pubblici ministeri e avvocati]`. Il Consiglio stabilisce il bilancio della giustizia, e l'Assemblea deve concederlo fino al `[due per cento]` delle entrate pubbliche. Oltre tale limite, decide l'Assemblea.
+3. I giudici restano in carica fino a `[un'età fissa]` e possono essere rimossi solo per reati o incapacità provata, con sentenza dei loro pari.
+4. Qualsiasi tribunale può rifiutarsi di applicare una legge contraria a questa Costituzione. La Corte Suprema ha l'ultima parola tra i tribunali.
+5. Qualsiasi controversia, civile o penale, può essere sottoposta a un tribunale indipendente scelto da tutte le sue parti. La sua decisione vincola tali parti ed è eseguita come quella di un tribunale, salvo che violi questa Costituzione. La sedizione è sempre giudicata dai tribunali.
+6. Ogni parte di una controversia ha il diritto di farla giudicare congiuntamente da un collegio di giudici, in numero dispari e non inferiore a tre, e da una giuria di cittadini, in numero pari e tra due e tre volte la dimensione del collegio. Le parti concordano entrambe le dimensioni. Ogni giudice e ogni giurato ha un voto uguale, così che il totale è sempre dispari. Una decisione richiede la maggioranza di tutti i voti, compresi almeno un giudice e un giurato, salvo che la giuria sia unanime, nel qual caso prevale il suo verdetto. In mancanza, la decisione favorisce l'imputato, o la parte contro cui è rivolta la domanda.
 
-## Article VII. Mutual Dissolution
+## Articolo VII. Scioglimento reciproco
 
-1. Any of the three powers may, at any time, dissolve another, on condition that it dissolves itself in the same act.
-2. Elections for both are then called at once, to be held within `[sixty]` days. For the judicial power, the election is that of its Council of Justice.
-3. Until the new holders take office, those dissolved act only to keep the State running.
+1. Ciascuno dei tre poteri può, in qualsiasi momento, scioglierne un altro, a condizione di sciogliere sé stesso con lo stesso atto.
+2. Si indicono allora subito elezioni per entrambi, da tenersi entro `[sessanta]` giorni. Per il potere giudiziario, l'elezione è quella del suo Consiglio di Giustizia.
+3. Finché i nuovi titolari non entrano in carica, quelli sciolti agiscono solo per mantenere in funzione lo Stato.
 
-## Article VIII. Referendum
+## Articolo VIII. Referendum
 
-1. When one power opposes a decision of another, it may, instead of yielding, put the question to the people directly.
-2. The referendum is held within `[ninety]` days. Its result binds all three powers.
-3. Each power may call `[one]` such referendum per term. Judgments in particular cases are never put to a vote.
-4. No referendum may abridge the rights recognized in Article I.
+1. Quando un potere si oppone a una decisione di un altro, può, invece di cedere, sottoporre la questione direttamente al popolo.
+2. Il referendum si tiene entro `[novanta]` giorni. Il suo risultato vincola tutti e tre i poteri.
+3. Ciascun potere può indire `[un]` referendum di questo tipo per mandato. Le sentenze su singoli casi non sono mai messe ai voti.
+4. Nessun referendum può limitare i diritti riconosciuti nell'Articolo I.
 
-## Article IX. Public Money
+## Articolo IX. Denaro pubblico
 
-1. Public accounts are open to every citizen.
-2. Public money belongs to the citizens who pay it. Whoever, holding office, takes it for private gain commits sedition.
-3. The power to issue currency is vested in the Assembly alone.
-4. Any citizen may at any time, by legislative initiative under Article IV, propose that another currency, including one no State controls, be recognized as a lawful means of exchange.
+1. I conti pubblici sono aperti a ogni cittadino.
+2. Il denaro pubblico appartiene ai cittadini che lo pagano. Chi, ricoprendo una carica, se ne appropria per profitto privato commette sedizione.
+3. Il potere di emettere moneta spetta soltanto all'Assemblea.
+4. Qualsiasi cittadino può in qualsiasi momento, mediante iniziativa legislativa secondo l'Articolo IV, proporre che un'altra moneta, anche una non controllata da alcuno Stato, sia riconosciuta come mezzo legale di scambio.
 
-## Article X. Sedition
+## Articolo X. Sedizione
 
-1. Sedition is the gravest crime against the nation. It is committed by whoever seizes or holds public power against this Constitution, subverts its elections or the separation of its powers by force or fraud, or steals public money while holding office.
-2. Sedition is punished by `[thirty years' imprisonment]` and lifelong exclusion from public office. This penalty is fixed here. No law, pardon or amnesty may raise it, lower it or set it aside. Only an amendment may change it.
-3. Speech, protest, peaceful opposition and civil disobedience, including the refusal to pay taxes, are never sedition.
+1. La sedizione è il crimine più grave contro la nazione. La commette chi prende o mantiene il potere pubblico contro questa Costituzione, sovverte con la forza o la frode le sue elezioni o la separazione dei suoi poteri, o ruba denaro pubblico ricoprendo una carica.
+2. La sedizione è punita con `[trent'anni di reclusione]` e l'esclusione perpetua dai pubblici uffici. Questa pena è fissata qui. Nessuna legge, grazia o amnistia può aumentarla, ridurla o annullarla. Solo un emendamento può cambiarla.
+3. La parola, la protesta, l'opposizione pacifica e la disobbedienza civile, compreso il rifiuto di pagare le tasse, non sono mai sedizione.
 
-## Article XI. Amendment
+## Articolo XI. Emendamento
 
-1. Amendments may be proposed by `[two-thirds]` of the Assembly, by `[five percent]` of registered voters, or by legislative initiative under Article IV approved by a simple majority of the Assembly.
-2. An amendment takes effect when ratified by a majority of voters in a referendum.
-3. No amendment may abridge the rights recognized in Article I, merge or subordinate the separated powers, suspend or postpone elections, or make this Constitution harder to amend.
-4. This Article cannot be amended. What it forbids in one amendment may not be done in several.
+1. Gli emendamenti possono essere proposti dai `[due terzi]` dell'Assemblea, dal `[cinque per cento]` degli elettori iscritti, o da un'iniziativa legislativa secondo l'Articolo IV approvata a maggioranza semplice dall'Assemblea.
+2. Un emendamento entra in vigore quando è ratificato dalla maggioranza degli elettori in un referendum.
+3. Nessun emendamento può limitare i diritti riconosciuti nell'Articolo I, fondere o subordinare i poteri separati, sospendere o rinviare le elezioni, o rendere più difficile emendare questa Costituzione.
+4. Questo Articolo non può essere emendato. Ciò che vieta in un solo emendamento non può essere fatto in più emendamenti.
 
-## Article XII. Supremacy
+## Articolo XII. Supremazia
 
-1. This Constitution is the supreme law. Any act contrary to it is void.
-2. No law may grant amnesty for acts against this Constitution. Such a legislative change is to be carried out by constitutional amendment, and it is never retroactive.
+1. Questa Costituzione è la legge suprema. Ogni atto a essa contrario è nullo.
+2. Nessuna legge può concedere amnistia per atti contro questa Costituzione. Un tale cambiamento legislativo deve essere attuato mediante emendamento costituzionale, e non è mai retroattivo.
