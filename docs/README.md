@@ -1,54 +1,54 @@
-# How to take part
+# Cómo participar
 
-You don't need to be a programmer. If you can write an email, you can write your own constitution here.
+No hace falta ser programador. Si sabes escribir un correo, puedes escribir aquí tu propia constitución.
 
-← Back to the [manifesto](../README.md) · Read the [constitution](../constitution.md)
+← Volver al [manifiesto](../README.md) · Leer la [constitución](../constitution.md)
 
-## How this project works
+## Cómo funciona este proyecto
 
-The original text is a starting point, and **it never changes**. We will never accept pull requests into it. The `main` branch, and its translations (such as `esp` and `ita`), stay exactly as they were first written, so that everyone always starts from the same blank page.
+El texto original es un punto de partida, y **nunca cambia**. Nunca aceptaremos pull requests sobre él. La rama `main`, y sus traducciones (como `esp` e `ita`), se quedan exactamente como se escribieron por primera vez, para que todo el mundo parta siempre de la misma página en blanco.
 
-Your proposal lives on **your own branch**, in your own copy of the project. Nobody has to approve it. It is public from the moment you save it. If you like someone else's version, build on it, or send them your changes. We do the same: our own proposals live on our own branches, like everyone else's.
+Tu propuesta vive en **tu propia rama**, en tu propia copia del proyecto. Nadie tiene que aprobarla. Es pública desde el momento en que la guardas. Si te gusta la versión de otra persona, construye sobre ella, o mándale tus cambios. Nosotros hacemos lo mismo: nuestras propias propuestas viven en nuestras propias ramas, como las de todos.
 
 ```mermaid
 flowchart LR
-    A["📜 BlankConstitution<br/>main (never changes)"] -->|1. Fork| B["🏴 Your copy"]
-    B -->|2. New branch| C["✍️ Your proposal"]
-    C -->|3. Share the link| D["💬 Public debate"]
-    E["🏴 Someone else's proposal"] -->|4. Pull request| C
+    A["📜 BlankConstitution<br/>main (nunca cambia)"] -->|1. Fork| B["🏴 Tu copia"]
+    B -->|2. Nueva rama| C["✍️ Tu propuesta"]
+    C -->|3. Comparte el enlace| D["💬 Debate público"]
+    E["🏴 La propuesta de otra persona"] -->|4. Pull request| C
     C -->|4. Pull request| E
 ```
 
-1. **Fork**: make your own copy of the project in your GitHub account.
-2. **Branch**: open a branch with a name for your proposal, and edit `constitution.md` until it says what you believe.
-3. **Share** the link to your branch. Anyone can read it, comment on it, or fork it.
-4. **Exchange.** You can send pull requests to other people's proposals, and they can send them to yours. Each person decides what goes into their own branch.
+1. **Fork**: haz tu propia copia del proyecto en tu cuenta de GitHub.
+2. **Rama**: abre una rama con un nombre para tu propuesta, y edita `constitution.md` hasta que diga lo que crees.
+3. **Comparte** el enlace a tu rama. Cualquiera puede leerla, comentarla o hacer un fork de ella.
+4. **Intercambia.** Puedes enviar pull requests a las propuestas de otras personas, y ellas a la tuya. Cada uno decide qué entra en su propia rama.
 
-## Pick your path
+## Elige tu camino
 
-| I prefer… | Guide | Time |
+| Prefiero… | Guía | Tiempo |
 |---|---|---|
-| Clicking in the browser | [Using the GitHub website](web.md) | ~10 min |
-| Typing commands | [Using Git in the terminal](terminal.md) | ~15 min |
-| Just giving my opinion | [Open an issue](web.md#just-want-to-comment-open-an-issue) | ~2 min |
+| Hacer clic en el navegador | [Usar la web de GitHub](web.md) | ~10 min |
+| Escribir comandos | [Usar Git en la terminal](terminal.md) | ~15 min |
+| Solo dar mi opinión | [Abrir un issue](web.md#solo-quieres-comentar-abre-un-issue) | ~2 min |
 
-## Words you will meet
+## Palabras que te vas a encontrar
 
-| Word | Plain meaning |
+| Palabra | Qué significa |
 |---|---|
-| **Repository** (repo) | A project folder with its whole history. This project is one. |
-| **Fork** | Your personal copy of someone else's repository. |
-| **Branch** | A parallel version of the text. Your proposal lives on one. |
-| **Commit** | Saving a change, with a short note explaining it. Every commit is kept forever. |
-| **Pull request** (PR) | "I changed this, please look at it and consider taking it." Here, only between people's proposals, never into `main`. |
-| **Issue** | A public thread for a question, an idea or a disagreement. |
-| **Merge** | Accepting a pull request into your own branch. |
-| **Clone** | Downloading a repository to your computer (terminal path only). |
+| **Repositorio** (repo) | Una carpeta de proyecto con toda su historia. Este proyecto es uno. |
+| **Fork** | Tu copia personal del repositorio de otra persona. |
+| **Rama** (branch) | Una versión paralela del texto. Tu propuesta vive en una. |
+| **Commit** | Guardar un cambio, con una nota breve que lo explica. Todos los commits se conservan para siempre. |
+| **Pull request** (PR) | «He cambiado esto, échale un vistazo y plantéate incorporarlo». Aquí, solo entre propuestas de personas, nunca hacia `main`. |
+| **Issue** | Un hilo público para una pregunta, una idea o un desacuerdo. |
+| **Merge** | Aceptar un pull request en tu propia rama. |
+| **Clonar** (clone) | Descargar un repositorio a tu ordenador (solo en la terminal). |
 
-## Learn by playing
+## Aprende jugando
 
-GitHub does not allow embedded web pages (iframes) inside its documents, so these open in a new tab:
+GitHub no permite incrustar páginas web (iframes) dentro de sus documentos, así que estos enlaces se abren en una pestaña nueva:
 
-- [Learn Git Branching](https://learngitbranching.js.org/): an interactive, visual game that teaches Git in your browser. Available in many languages, Spanish and Italian included.
-- [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github): a guided course that runs inside GitHub itself.
-- [GitHub's "Hello World"](https://docs.github.com/en/get-started/start-your-journey/hello-world): the official first steps.
+- [Learn Git Branching](https://learngitbranching.js.org/?locale=es_ES): un juego interactivo y visual que enseña Git en tu navegador, en español.
+- [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github): un curso guiado que funciona dentro del propio GitHub (en inglés).
+- [«Hola mundo» de GitHub](https://docs.github.com/es/get-started/start-your-journey/hello-world): los primeros pasos oficiales.

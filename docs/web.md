@@ -1,138 +1,140 @@
-# Using the GitHub website
+# Usar la web de GitHub
 
-No installation. Everything happens in your browser.
+Sin instalar nada. Todo ocurre en tu navegador.
 
-← [All guides](README.md) · [Manifesto](../README.md) · [Constitution](../constitution.md)
+← [Todas las guías](README.md) · [Manifiesto](../README.md) · [Constitución](../constitution.md)
+
+> Los botones de GitHub aparecen en inglés. Aquí los escribimos tal cual, en **negrita**, para que los reconozcas.
 
 ```mermaid
 flowchart LR
-    S0["0. Sign up"] --> S1["1. Fork"] --> S2["2. Branch"] --> S3["3. Edit"] --> S4["4. Commit"] --> S5["5. Share"]
+    S0["0. Regístrate"] --> S1["1. Fork"] --> S2["2. Rama"] --> S3["3. Edita"] --> S4["4. Commit"] --> S5["5. Comparte"]
 ```
 
-## 0. Create an account
+## 0. Crea una cuenta
 
-Go to [github.com/signup](https://github.com/signup) and follow the steps. It's free. Pick a username you are happy to sign proposals with.
+Entra en [github.com/signup](https://github.com/signup) y sigue los pasos. Es gratis. Elige un nombre de usuario con el que te parezca bien firmar propuestas.
 
-## 1. Fork the project
+## 1. Haz un fork del proyecto
 
-Open the [BlankConstitution repository](https://github.com/BlankConstitution/blankconstitution). In the top-right corner, click **Fork**.
+Abre el [repositorio de BlankConstitution](https://github.com/BlankConstitution/blankconstitution). En la esquina superior derecha, haz clic en **Fork**.
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
 │ BlankConstitution / blankconstitution          👁 Watch  🍴 Fork ⭐ Star│
 │                                                         ▲            │
-│ <> Code   ⊙ Issues   ⇄ Pull requests            click here           │
+│ <> Code   ⊙ Issues   ⇄ Pull requests            haz clic aquí        │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
-On the next screen, untick **Copy the `main` branch only** if you also want the translations (`esp`, `ita`), and click **Create fork**. You now have your own copy at `github.com/YOUR-NAME/blankconstitution`.
+En la siguiente pantalla, desmarca **Copy the `main` branch only** si quieres también las traducciones, y haz clic en **Create fork**. Ya tienes tu propia copia en `github.com/TU-NOMBRE/blankconstitution`.
 
-## 2. Open a branch for your proposal
+## 2. Abre una rama para tu propuesta
 
-In **your fork**, click the branch button (it says `main`), type a name for your proposal, and click **Create branch**.
+En **tu fork**, haz clic en el botón de ramas (pone `main`; elige `esp` si quieres partir del texto en español), escribe un nombre para tu propuesta y haz clic en **Create branch**.
 
 ```
 ┌──────────────────────────────────────────────┐
-│ [ ⑂ main ▾ ]                                 │
+│ [ ⑂ esp ▾ ]                                  │
 │ ┌──────────────────────────────────────────┐ │
 │ │ Switch branches/tags                     │ │
 │ │ ┌──────────────────────────────────────┐ │ │
-│ │ │ free-schools                         │ │ │  ← name your proposal
+│ │ │ escuelas-libres                      │ │ │  ← nombra tu propuesta
 │ │ └──────────────────────────────────────┘ │ │
-│ │ ⑂ Create branch: free-schools            │ │  ← click
+│ │ ⑂ Create branch: escuelas-libres         │ │  ← clic
 │ └──────────────────────────────────────────┘ │
 └──────────────────────────────────────────────┘
 ```
 
-Your proposal will live here. Leave `main` as it is: it is your copy of the blank page.
+Tu propuesta vivirá aquí. Deja `main` y `esp` como están: son tu copia de la página en blanco.
 
-## 3. Edit the constitution
+## 3. Edita la constitución
 
-Make sure the branch button shows **your branch**. Click `constitution.md`, then the **pencil** icon ✏️ at the top right of the file.
+Asegúrate de que el botón de ramas muestra **tu rama**. Haz clic en `constitution.md` y luego en el icono del **lápiz** ✏️, arriba a la derecha del archivo.
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│ [ ⑂ free-schools ▾ ]  blankconstitution / constitution.md       │
+│ [ ⑂ escuelas-libres ▾ ]  blankconstitution / constitution.md       │
 │ ┌──────────────┐                                    Raw  ⧉  ⬇  ✏️  ⋯ │
 │ │Preview │ Code│                                               ▲     │
-│ └──────────────┘                                     edit this file  │
+│ └──────────────┘                                    editar el archivo│
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
-Write as you would in any text box. A few marks give the text its shape:
+Escribe como en cualquier cuadro de texto. Unas pocas marcas dan forma al texto:
 
-| You type | You get |
+| Escribes | Obtienes |
 |---|---|
-| `## Article XIII. Of Education` | A heading |
-| `1. Schools shall…` | A numbered clause |
-| `**must**` | **bold** |
-| `*may*` | *italic* |
+| `## Artículo XIII. De la educación` | Un título |
+| `1. Las escuelas…` | Una cláusula numerada |
+| `**debe**` | **negrita** |
+| `*puede*` | *cursiva* |
 
-Use the **Preview** tab to see how it will look.
+Usa la pestaña **Preview** para ver cómo quedará.
 
-## 4. Save your change (commit)
+## 4. Guarda tu cambio (commit)
 
-Click the green **Commit changes…** button. A box appears:
+Haz clic en el botón verde **Commit changes…**. Aparece un cuadro:
 
 ```
 ┌─ Commit changes ─────────────────────────────────────┐
 │ Commit message                                       │
 │ ┌──────────────────────────────────────────────────┐ │
-│ │ Add Article XIII on education                    │ │  ← short, clear title
+│ │ Añade el Artículo XIII sobre educación           │ │  ← título breve y claro
 │ └──────────────────────────────────────────────────┘ │
 │ Extended description                                 │
 │ ┌──────────────────────────────────────────────────┐ │
-│ │ Schools should be free of party ideology…        │ │  ← why (optional)
+│ │ Las escuelas deberían estar libres de ideología… │ │  ← por qué (opcional)
 │ └──────────────────────────────────────────────────┘ │
-│ ◉ Commit directly to the free-schools branch         │
+│ ◉ Commit directly to the escuelas-libres branch      │
 │                              [ Commit changes ]      │
 └──────────────────────────────────────────────────────┘
 ```
 
-Click **Commit changes**. Done: your branch now holds your version, and anyone can read it.
+Haz clic en **Commit changes**. Listo: tu rama ya contiene tu versión, y cualquiera puede leerla.
 
-## 5. Share it
+## 5. Compártela
 
-Copy the address from your browser. It looks like `github.com/YOUR-NAME/blankconstitution/tree/free-schools`. Send it, post it, or announce it in an [issue](#just-want-to-comment-open-an-issue) of the original so others can find it.
+Copia la dirección de tu navegador. Se parece a `github.com/TU-NOMBRE/blankconstitution/tree/escuelas-libres`. Envíala, publícala o anúnciala en un [issue](#solo-quieres-comentar-abre-un-issue) del original para que otros la encuentren.
 
-> **The original never accepts pull requests.** GitHub will sometimes show a **Contribute** button offering to open one into BlankConstitution. Ignore it. Your branch is already your proposal.
+> **El original nunca acepta pull requests.** GitHub a veces muestra un botón **Contribute** que ofrece abrir uno hacia BlankConstitution. Ignóralo. Tu rama ya es tu propuesta.
 
-## Working with other people's proposals
+## Trabajar con las propuestas de otras personas
 
-**Build on someone's proposal.** Open their fork, switch to their branch, and click **Fork**. Untick *Copy the `main` branch only* so their branch comes with it. Then open your own branch from theirs, as in step 2.
+**Construir sobre la propuesta de alguien.** Abre su fork, cambia a su rama y haz clic en **Fork**. Desmarca **Copy the `main` branch only** para que su rama venga incluida. Luego abre tu propia rama a partir de la suya, como en el paso 2.
 
-**Send them your changes.** Open a pull request from your branch to theirs:
+**Enviarle tus cambios.** Abre un pull request desde tu rama hacia la suya:
 
-1. In your fork, click **Pull requests → New pull request**.
-2. Click **compare across forks**.
-3. On the left (**base**), choose *their* fork and branch. On the right (**head**), choose *yours*.
-4. Click **Create pull request** and explain your reasoning.
+1. En tu fork, haz clic en **Pull requests → New pull request**.
+2. Haz clic en **compare across forks**.
+3. A la izquierda (**base**), elige *su* fork y su rama. A la derecha (**head**), elige *los tuyos*.
+4. Haz clic en **Create pull request** y explica tus razones.
 
 ```mermaid
 sequenceDiagram
-    actor You
-    participant Yours as Your branch
-    participant Theirs as Their branch
-    You->>Yours: Edit and commit
-    You->>Theirs: Open pull request
-    Theirs-->>You: Comments, questions, objections
-    You->>Yours: Improve your text (the PR updates by itself)
-    Theirs->>Theirs: They merge it, if they agree
+    actor Tú
+    participant Tuya as Tu rama
+    participant Suya as Su rama
+    Tú->>Tuya: Editas y haces commit
+    Tú->>Suya: Abres un pull request
+    Suya-->>Tú: Comentarios, preguntas, objeciones
+    Tú->>Tuya: Mejoras tu texto (el PR se actualiza solo)
+    Suya->>Suya: Lo fusiona, si está de acuerdo
 ```
 
-Others can do the same with yours. Pull requests sent to you appear under **Pull requests** in your fork, and you decide whether to merge them.
+Los demás pueden hacer lo mismo con la tuya. Los pull requests que te envíen aparecen en **Pull requests** de tu fork, y tú decides si los fusionas.
 
-## Just want to comment? Open an issue
+## ¿Solo quieres comentar? Abre un issue
 
-1. Go to the [Issues tab](https://github.com/BlankConstitution/blankconstitution/issues) of the original.
-2. Click **New issue**.
-3. Give it a title ("Article V: why only two terms?") and write your argument.
-4. Click **Submit new issue**.
+1. Ve a la [pestaña Issues](https://github.com/BlankConstitution/blankconstitution/issues) del original.
+2. Haz clic en **New issue**.
+3. Ponle un título («Artículo V: ¿por qué solo dos mandatos?») y escribe tu argumento.
+4. Haz clic en **Submit new issue**.
 
-You can also comment on any line of an open pull request: open the PR, go to **Files changed**, and click the **+** that appears next to a line.
+También puedes comentar cualquier línea de un pull request abierto: abre el PR, ve a **Files changed** y haz clic en el **+** que aparece junto a la línea.
 
-## Prefer an app?
+## ¿Prefieres una aplicación?
 
-[GitHub Desktop](https://desktop.github.com/) does all of this with buttons, on Windows and macOS, and lets you edit the files with any text editor you like.
+[GitHub Desktop](https://desktop.github.com/) hace todo esto con botones, en Windows y macOS, y te deja editar los archivos con el editor de texto que prefieras.
 
-Comfortable with commands? See the [terminal guide](terminal.md).
+¿Te manejas con comandos? Mira la [guía de la terminal](terminal.md).

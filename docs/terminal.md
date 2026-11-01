@@ -1,125 +1,126 @@
-# Using Git in the terminal
+# Usar Git en la terminal
 
-For those who like to type. Every command is explained; copy them one at a time.
+Para quienes prefieren escribir. Cada comando está explicado; cópialos de uno en uno.
 
-← [All guides](README.md) · [Manifesto](../README.md) · [Constitution](../constitution.md)
+← [Todas las guías](README.md) · [Manifiesto](../README.md) · [Constitución](../constitution.md)
 
-## How the pieces fit
+## Cómo encajan las piezas
 
 ```mermaid
 flowchart LR
-    U["BlankConstitution<br/>main never changes"] -->|fork, in the browser| O["Your fork<br/>on GitHub<br/><i>origin</i>"]
-    O -->|git clone| L["Your computer"]
+    U["BlankConstitution<br/>main nunca cambia"] -->|fork, en el navegador| O["Tu fork<br/>en GitHub<br/><i>origin</i>"]
+    O -->|git clone| L["Tu ordenador"]
     L -->|git push| O
-    F["Someone else's fork"] -->|git fetch| L
+    F["El fork de otra persona"] -->|git fetch| L
     O <-->|pull requests| F
 ```
 
-The original is never changed and accepts no pull requests. Your proposal lives on a branch of your own fork.
+El original nunca cambia y no acepta pull requests. Tu propuesta vive en una rama de tu propio fork.
 
-## 0. Install Git (once)
+## 0. Instala Git (una vez)
 
 <details>
 <summary><b>Windows</b></summary>
 
-Download and install [Git for Windows](https://git-scm.com/downloads). Keep the default options. Then open **Git Bash** from the Start menu.
+Descarga e instala [Git for Windows](https://git-scm.com/downloads). Deja las opciones por defecto. Después abre **Git Bash** desde el menú Inicio.
 </details>
 
 <details>
 <summary><b>macOS</b></summary>
 
-Open **Terminal** and type `git --version`. If Git is missing, macOS will offer to install it.
+Abre **Terminal** y escribe `git --version`. Si falta Git, macOS te ofrecerá instalarlo.
 </details>
 
 <details>
 <summary><b>Linux</b></summary>
 
-`sudo apt install git` (Debian/Ubuntu) or `sudo dnf install git` (Fedora).
+`sudo apt install git` (Debian/Ubuntu) o `sudo dnf install git` (Fedora).
 </details>
 
-Tell Git who you are. This name signs your commits:
+Dile a Git quién eres. Este nombre firma tus commits:
 
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu@ejemplo.com"
 ```
 
-## 1. Fork and download
+## 1. Haz un fork y descárgalo
 
-Fork the project on GitHub first (see [step 1 of the web guide](web.md#1-fork-the-project)). Then:
+Primero haz un fork del proyecto en GitHub (mira el [paso 1 de la guía web](web.md#1-haz-un-fork-del-proyecto)). Después:
 
 ```bash
-git clone https://github.com/YOUR-NAME/blankconstitution.git   # download your fork
-cd blankconstitution                                           # step into the folder
+git clone https://github.com/TU-NOMBRE/blankconstitution.git   # descarga tu fork
+cd blankconstitution                                           # entra en la carpeta
 ```
 
-## 2. Open a branch for your proposal
+## 2. Abre una rama para tu propuesta
 
 ```bash
-git switch -c free-schools      # create your branch and move onto it
+git switch esp                       # el texto en español
+git switch -c escuelas-libres      # crea tu rama a partir de él y entra en ella
 ```
 
-Open `constitution.md` in any text editor, make your changes, save the file. Leave `main` as it is: it is your copy of the blank page.
+Abre `constitution.md` con cualquier editor de texto, haz tus cambios y guarda el archivo. Deja `main` y `esp` como están: son tu copia de la página en blanco.
 
-## 3. Commit and push
+## 3. Haz commit y súbelo
 
 ```bash
-git status                          # what changed?
-git diff                            # show me exactly what changed
-git add constitution.md             # include this file in the next commit
-git commit -m "Add Article XIII on education"
-git push -u origin free-schools # upload your branch to your fork
+git status                           # ¿qué ha cambiado?
+git diff                             # enséñame exactamente qué ha cambiado
+git add constitution.md              # incluye este archivo en el próximo commit
+git commit -m "Añade el Artículo XIII sobre educación"
+git push -u origin escuelas-libres # sube tu rama a tu fork
 ```
 
-Your proposal is now public at `github.com/YOUR-NAME/blankconstitution/tree/free-schools`. Share that link.
+Tu propuesta ya es pública en `github.com/TU-NOMBRE/blankconstitution/tree/escuelas-libres`. Comparte ese enlace.
 
-> Git may print a link offering to open a pull request. Don't open one into BlankConstitution: it will not be accepted. Your branch is already your proposal.
+> Puede que Git te muestre un enlace para abrir un pull request. No abras uno hacia BlankConstitution: no se aceptará. Tu rama ya es tu propuesta.
 
-## 4. Build on someone else's proposal
+## 4. Construye sobre la propuesta de otra persona
 
 ```bash
-git remote add maria https://github.com/maria/blankconstitution.git   # remember her fork
-git fetch maria                                                       # download her branches
-git switch -c free-schools-and-press maria/free-schools              # your branch, starting from hers
+git remote add maria https://github.com/maria/blankconstitution.git   # recuerda su fork
+git fetch maria                                                       # descarga sus ramas
+git switch -c escuelas-y-prensa-libres maria/escuelas-libres              # tu rama, a partir de la suya
 ```
 
-Edit, commit and push as in step 3. To pick up her later changes:
+Edita, haz commit y súbelo como en el paso 3. Para recoger sus cambios posteriores:
 
 ```bash
-git pull maria free-schools
+git pull maria escuelas-libres
 ```
 
-To send her your changes, push your branch and open a pull request from it to her branch on GitHub (see [the web guide](web.md#working-with-other-peoples-proposals)). She decides whether to merge it.
+Para enviarle tus cambios, sube tu rama y abre un pull request desde ella hacia la suya en GitHub (mira [la guía web](web.md#trabajar-con-las-propuestas-de-otras-personas)). Ella decide si lo fusiona.
 
-## What just happened
+## Qué acaba de pasar
 
 ```mermaid
 gitGraph
     commit id: "BlankConstitution"
-    branch maria/free-schools
-    checkout maria/free-schools
-    commit id: "Free schools"
-    branch free-schools-and-press
-    checkout free-schools-and-press
-    commit id: "Add a free press"
-    checkout maria/free-schools
-    merge free-schools-and-press id: "Maria accepts it"
+    branch maria/escuelas-libres
+    checkout maria/escuelas-libres
+    commit id: "Escuelas libres"
+    branch escuelas-y-prensa-libres
+    checkout escuelas-y-prensa-libres
+    commit id: "Añade una prensa libre"
+    checkout maria/escuelas-libres
+    merge escuelas-y-prensa-libres id: "María lo acepta"
 ```
 
-`main` never moves. Every proposal grows beside it, and proposals borrow from each other.
+`main` nunca se mueve. Cada propuesta crece a su lado, y las propuestas se toman prestadas ideas unas a otras.
 
-## Cheat sheet
+## Chuleta
 
-| Command | What it does |
+| Comando | Qué hace |
 |---|---|
-| `git status` | Shows what you have changed |
-| `git diff` | Shows the changes line by line |
-| `git add FILE` | Picks a file for the next commit |
-| `git commit -m "…"` | Saves the picked changes with a note |
-| `git push` | Uploads your commits to GitHub |
-| `git switch -c NAME` | Starts a new branch |
-| `git remote add NAME URL` | Remembers someone else's fork |
-| `git fetch NAME` | Downloads their branches |
-| `git log --oneline` | Lists past commits |
+| `git status` | Muestra lo que has cambiado |
+| `git diff` | Muestra los cambios línea a línea |
+| `git add ARCHIVO` | Elige un archivo para el próximo commit |
+| `git commit -m "…"` | Guarda los cambios elegidos con una nota |
+| `git push` | Sube tus commits a GitHub |
+| `git switch -c NOMBRE` | Empieza una rama nueva |
+| `git remote add NOMBRE URL` | Recuerda el fork de otra persona |
+| `git fetch NOMBRE` | Descarga sus ramas |
+| `git log --oneline` | Lista los commits anteriores |
 
-Stuck? [Learn Git Branching](https://learngitbranching.js.org/) teaches all of this visually, in your browser. Or go back to the [web guide](web.md): you can always do it with clicks instead.
+¿Atascado? [Learn Git Branching](https://learngitbranching.js.org/?locale=es_ES) enseña todo esto de forma visual, en tu navegador. O vuelve a la [guía web](web.md): siempre puedes hacerlo con clics.
